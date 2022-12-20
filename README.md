@@ -6,3 +6,5 @@
 
   * ![Flutter](https://img.shields.io/badge/-HTML-09090)
   * ![Flutter](https://img.shields.io/badge/-CSS-102348)
+  * ![Flutter](https://img.shields.io/badge/-Flexbox-108)
+  * ![Flutter](https://img.shields.io/badge/-Grid-457)
