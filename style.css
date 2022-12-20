@@ -238,7 +238,7 @@
 }
 
 .cover__background {
-    background-image: url("images/__background.jpg");
+    background-image: url("images/cover.jpg");
     width: 1184px;
     height: 100%;
     background-size: cover;
