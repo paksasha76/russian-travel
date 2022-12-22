@@ -53,9 +53,11 @@
     display: flex;
     margin-top: 46px;
 }
+
 .header__lang-link {
     list-style-type: none;
     margin-right: 18px;
+    font-size: 24px;
 }
 
 .header__lang-link_active {
@@ -87,21 +89,19 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
-    text-align: center;
     width: 640px;
-    margin: 0 auto;
     padding: 0;
+    margin: 0 180px;
     margin-bottom: 64px;
 }
 
 .lead__title {
-    margin: 0 auto;
-    padding: 0;
     text-align: center;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
     width: 720px;
+    margin: 0 140px;
     margin-bottom: 32px;
 }
 
@@ -594,5 +594,17 @@
 @media screen and (max-width: 767px) {
 .place__website {
   
+}
+}
+
+@media screen and (max-width: 767px) {
+.header__logo {
+    width: 142px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.header__lang-link {
+    font-size: 18px;
 }
 }
