@@ -561,3 +561,28 @@
         padding: 0 16px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .intro__text {
+        width: 288px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__image {
+        
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__website {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__title {
+        margin-bottom: 32px;
+    }
+}
