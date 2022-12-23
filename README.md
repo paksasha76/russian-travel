@@ -8,3 +8,5 @@
   * ![Flutter](https://img.shields.io/badge/-CSS-102348)
   * ![Flutter](https://img.shields.io/badge/-Flexbox-108)
   * ![Flutter](https://img.shields.io/badge/-Grid-457)
+
+* Ссылка на проект https://paksasha76.github.io/russian-travel/
