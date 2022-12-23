@@ -314,6 +314,14 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .place__image {
+        margin: 0;
+        padding: 0;
+        width: 440px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .photo-grid {
         display: flex;
@@ -556,7 +564,8 @@
 @media screen and (max-width: 767px) {
     .place__title {
         margin-bottom: 32px;
-        
+        max-width: 340px;
+        margin-right: 110px;
     }
 }
 
@@ -683,5 +692,12 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .cover__overlay {
        height: 580px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .place__paragraph {
+       margin-right: 120px;
     }
 }
