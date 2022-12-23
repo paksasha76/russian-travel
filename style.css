@@ -478,7 +478,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .lead {
-        padding: 0 24px;
+        padding: 0;
+        margin: 0;
     }
 }
 
@@ -645,5 +646,24 @@
        margin: 0 auto;
        padding: 0;
        margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .lead__caption{
+        margin-left: 24px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .place__paragraph {
+        width: 352px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover {
+        margin-bottom: 88px;
     }
 }
