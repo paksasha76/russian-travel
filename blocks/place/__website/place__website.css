@@ -8,3 +8,10 @@
         padding: 0;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .place__website {
+     position: relative;
+     right: 90px;
+    }
+}
