@@ -1,22 +1,22 @@
 .place__image {
-    min-width: 320px;
-    max-width: 440px;
-    object-fit: cover;
+  min-width: 320px;
+  max-width: 440px;
+  object-fit: cover;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .place__image {
-        margin: 0;
-        padding: 0;
-        width: 340px;
-    }
+  .place__image {
+    margin: 0;
+    padding: 0;
+    width: 340px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .place__image {
-        margin: 0;
-        padding: 0;
-        margin-bottom: 32px;
-        margin-top: 32px;
-    }
+  .place__image {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 32px;
+    margin-top: 32px;
+  }
 }

@@ -1,9 +1,9 @@
 .lead__image {
-    min-width: 320px;
-    max-width: 984px;
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    object-fit: cover;
+  min-width: 320px;
+  max-width: 984px;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
 }
