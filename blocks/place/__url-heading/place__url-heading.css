@@ -1,8 +1,8 @@
 .place__url-heading {
     color: #AAAAAA;
-    margin-top: 192px;
-    margin: 0;
+    margin: 0 0 12px;
     padding: 0;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 767px) {
