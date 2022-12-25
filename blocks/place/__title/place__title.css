@@ -8,10 +8,21 @@
   margin-top: 96px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__title {
     margin-bottom: 32px;
-    max-width: 340px;
+    width: 340px;
     margin-right: 110px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .place__title {
+    margin-bottom: 32px;
+    max-width: 288px;
+    margin-right: 110px;
+    font-size: 32px;
+    margin-left: 16px;
+  }
+}
+

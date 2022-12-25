@@ -1,5 +1,15 @@
 .place__link {
-    color: white;
-    margin: 0;
-    padding: 0;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.place__link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+  .place__link {
+    margin-left: 16px;
+  }
 }
