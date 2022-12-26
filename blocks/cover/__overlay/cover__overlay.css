@@ -6,6 +6,7 @@
   opacity: 0.3;
   background: #2a2c2f;
   z-index: 2;
+  max-width: 1184px;
 }
 
 .cover__overlay:hover {
