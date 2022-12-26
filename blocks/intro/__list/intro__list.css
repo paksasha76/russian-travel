@@ -5,12 +5,12 @@
   line-height: 18px;
   font-style: normal;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 767px) {
   .intro__list {
-    margin: 0;
-    padding: 0;
     width: 288px;
   }
 }
