@@ -2,6 +2,8 @@
   color: white;
   margin: 0;
   padding: 0;
+  position: relative;
+  top: 100px;
 }
 
 .place__link:hover {
@@ -10,6 +12,7 @@
 
 @media screen and (max-width: 767px) {
   .place__link {
+    position: static;
     margin-left: 16px;
   }
 }
