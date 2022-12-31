@@ -6,6 +6,7 @@
     .place__website {
         margin: 0;
         padding: 0;
+        height: 10px;
     }
 }
 
