@@ -1,4 +1,10 @@
 .place__link-bottom {
-    position: relative;
-    top: 180px;
+  position: relative;
+  top: 180px;
+}
+
+@media screen and (max-width: 767px) {
+    .place__link-bottom {
+    position: static;
+    }
 }

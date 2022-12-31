@@ -1,4 +1,10 @@
 .place__url-heading-bottom {
-    position: relative;
-    top: 182px;
+  position: relative;
+  top: 182px;
+}
+
+@media screen and (max-width: 767px) {
+    .place__link-bottom {
+    position: static;
+    }
 }
