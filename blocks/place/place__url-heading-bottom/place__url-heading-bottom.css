@@ -4,7 +4,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .place__link-bottom {
-    position: static;
+    .place__url-heading-bottom {
+      position: static;
     }
 }
