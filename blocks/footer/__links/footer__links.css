@@ -11,5 +11,6 @@
     margin: 0;
     padding: 0;
     margin-left: 16px;
+    gap: 32px;
   }
 }
