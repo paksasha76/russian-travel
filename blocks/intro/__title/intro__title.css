@@ -16,3 +16,10 @@
     line-height: 35px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro__title {
+    margin-top: 88px;
+    margin-bottom: 10px;
+  }
+}
