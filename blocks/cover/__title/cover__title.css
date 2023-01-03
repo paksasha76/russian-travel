@@ -9,7 +9,7 @@
     padding-bottom: 32px;
     position: relative;
     z-index: 3; 
-   }
+}
 
    @media screen and (max-width: 767px) {
     .cover__title {
@@ -18,5 +18,11 @@
         line-height: 35px;
         margin-bottom: 8px;
         padding: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .cover__title {
+        padding-bottom: 20px;
     }
 }
