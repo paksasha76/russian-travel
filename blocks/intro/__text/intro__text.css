@@ -14,3 +14,9 @@
     margin-bottom: 30px;
   }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .intro__text {
+    margin-bottom: 30px;
+  }
+}
