@@ -1,20 +1,19 @@
 .place__website {
-    height: 100px;
+    max-width: 456px;
 }
 
 @media screen and (max-width: 767px) {
     .place__website {
-        margin: 0;
-        padding: 0;
-        height: 10px;
-        margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 0;
+    max-width: 288px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place__website {
-     position: relative;
-     right: 88px;
-     bottom: 80px;
+     
     }
 }

@@ -28,5 +28,6 @@
   .cover__background {
     height: 200px;
     margin-bottom: 30px;
+    padding: 0 16px;
   }
 }
