@@ -14,4 +14,8 @@
    position: relative;
    top: 46px;
   }
+  .place__link-bottom-768 {
+    position: relative;
+    top: 0;
+  }
 }

@@ -14,4 +14,8 @@
     position: relative;
     top: 43px;
   }
+  .place__url-heading-bottom-768 {
+    position: relative;
+    top: 0;
+  }
 }
