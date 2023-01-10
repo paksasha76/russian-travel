@@ -5,15 +5,13 @@
   gap: 16px;
   margin-left: 48px;
   margin-right: 48px;
+  margin-bottom: 90px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .photo-grid {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    margin-left: 48px;
-    margin-right: 48px;
-    gap: 14px;
     margin-bottom: 20px;
   }
 }
@@ -22,12 +20,9 @@
   .photo-grid {
     grid-template-columns: repeat(2, 352px);
     grid-template-rows: repeat(6, 1fr);
-    gap: 16px;
-    margin: 0;
-    padding: 0;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 89px;
+    margin: 0 auto 89px;
+    padding: 0 24px;
+    justify-content: center;
   }
 }
 

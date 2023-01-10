@@ -2,9 +2,10 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 0 148px;
-  row-gap: 40px;
+  row-gap: 48px;
   column-gap: 17px;
   margin-top: 20px;
+  margin-bottom: 80px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -26,11 +27,10 @@
 
 @media screen and (max-width: 767px) {
   .place {
-      grid: 600px auto / 1fr;
-      grid-template-rows: 1fr;
-      padding-left: 0;
-      padding-top: 30px;
-      grid-row-gap: 32px;
+    grid: 600px auto / 1fr;
+    grid-template-rows: 1fr;
+    padding-left: 0;
+    padding-top: 30px;
+    grid-row-gap: 32px;
   }
 }
-

@@ -6,8 +6,6 @@
   font-size: 12px;
   font-style: normal;
   letter-spacing: 2px;
-  position: relative;
-  top: 100px;
 }
 
 @media screen and (max-width: 767px) {
@@ -15,7 +13,6 @@
     color: #aaaaaa;
     margin-right: 410px;
     margin-left: 16px;
-    position: static;
   }
 }
 

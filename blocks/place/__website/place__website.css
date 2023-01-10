@@ -1,13 +1,16 @@
 .place__website {
-    max-width: 456px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  max-width: 456px;
+  margin: 0;
+  left: 16px;
+  margin-left: 18px;
 }
 
 @media screen and (max-width: 767px) {
-    .place__website {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    margin: 0;
+  .place__website {
+    position: static;
     max-width: 288px;
-    }
+  }
 }
