@@ -4,7 +4,6 @@
   justify-content: end;
   max-width: 456px;
   margin: 0;
-  left: 16px;
   margin-left: 18px;
 }
 
@@ -12,5 +11,12 @@
   .place__website {
     max-width: 288px;
     margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .place__website {
+    margin-bottom: 30px;
+    margin-left: 12px;
   }
 }
