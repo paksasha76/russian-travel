@@ -11,13 +11,6 @@
 @media screen and (max-width: 767px) {
   .place__url-heading {
     color: #aaaaaa;
-    margin-right: 410px;
     margin-left: 16px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .place__url-heading {
-    position: static;
   }
 }

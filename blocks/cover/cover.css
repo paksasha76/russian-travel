@@ -1,32 +1,40 @@
 .cover {
-    margin-bottom: 92px;
-    margin-top: 96px;
-    padding: 0 48px;
+  margin-bottom: 92px;
+  margin-top: 96px;
+  padding: 0 48px;
 }
 
-  @media screen and (max-width: 767px) {
-    .cover {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        padding: 0 16px;
-        margin-top: 66px;
-        margin-bottom: 28px;
-    }
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .cover {
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .cover {
-        margin: 0;
-        padding: 0;
-        margin-bottom: 80px;
-    }
+  .cover {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+    margin-top: 66px;
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover {
+    margin-bottom: 80px;
+  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .cover {
-        margin-bottom: 90px;
-        padding: 0;
-    }
+  .cover {
+    margin-bottom: 90px;
+  }
 }
